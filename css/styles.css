@@ -143,7 +143,7 @@ a {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  margin: 0 auto 18px;
+  margin: 0 auto;
 }
 
 .hero-button {
@@ -242,6 +242,25 @@ a {
   margin-bottom: 8px;
 }
 
+.portfolio-container {
+  display: block;
+  padding-bottom: 120px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-list-item {
+}
+
+.portfolio-item-text {
+  display: block;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -249,6 +268,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .portfolio-list-title {
@@ -262,6 +282,9 @@ a {
 footer {
   background: #2e2f42;
 }
+.footer-container {
+  padding: 101.5px 894px 100px 0;
+}
 .footer-logo {
   font-weight: 700;
   font-size: 18px;
@@ -269,6 +292,8 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 17.5px;
 }
 
 .footer-logo-studio {
