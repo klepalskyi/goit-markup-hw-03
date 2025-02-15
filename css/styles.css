@@ -215,7 +215,6 @@ a {
 }
 
 .team-list {
-  background-color: #fff;
   display: flex;
   justify-content: center;
   border: none;
@@ -223,13 +222,12 @@ a {
 }
 
 .team-list-item {
+  background-color: #fff;
   border-radius: 0 0 4px 4px;
-  padding-bottom: 32px;
   width: calc((100% - 24px * 3) / 4);
 }
 
 .team-list-container {
-  display: flex;
   padding: 32px 0;
   align-items: center;
   flex-direction: column;
@@ -267,7 +265,7 @@ a {
 .portfolio-item-text {
   display: block;
   padding: 32px 16px;
-  border-bottom: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
   border-top: none;
 }
 
